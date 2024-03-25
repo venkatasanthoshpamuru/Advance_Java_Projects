@@ -1,0 +1,6 @@
+127.0.0.1 - - [19/Dec/2023:15:46:45 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:15:46:46 +0530] "GET /CookiesExample/ HTTP/1.1" 200 359
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:15:46:46 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:15:46:59 +0530] "POST /CookiesExample/FirstServlet HTTP/1.1" 200 380
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:15:47:06 +0530] "POST /CookiesExample/SecondServlet HTTP/1.1" 200 360
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:15:47:15 +0530] "POST /CookiesExample/ThirdServlet HTTP/1.1" 200 137

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<center>
+<html>
+   <head>
+   <style>
+     body {
+            font-family:inherit;
+            background-color: #f3f3;
+            margin: 100;
+            padding: 50;
+        }
+          h2 {
+            text-align: center;
+            color: #333;
+        }
+         .form-group {
+            margin-bottom: 10px;
+        }
+         
+         input[type="MoblieNo"],
+         select {
+            width: calc(0% - 20px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            box-sizing: border-box;
+            font-size: 0px;
+        }
+           h1 {
+            color: purple;
+            font-style: inherit;
+        }
+          input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        
+   </style>
+
+    <script>
+        // Your JavaScript code goes here
+        function check() {
+            // Your validation logic
+        }
+    </script>
+ 
+     <script> 
+     function check(){
+       var v1 = f.t1.value;
+       var v2= f.t2.value;
+       var v3= f.t3.value;
+       var v4= f.t4.value;
+       var v5= f.t5.value;
+       var v6= f.t6.value;
+       var v7= f.t7.value;
+       var v8= f.t8.value;
+       var v9= f.t9.value;
+       var v10= f.t10.value;
+        if(v1==""){
+        	alert("please enter the name");
+        	document.f.t1.focus();
+        	return false;
+        }
+        if(v2==""){
+        	alert("Your password must be 4&8 Character");
+        	document.f.t2.focus();
+        	return false;
+        }
+        if(v3==""){
+        	alert("Your confirmpassword must be 4&8 Character");
+        	document.f.t3.focus();
+        	return false;
+        }
+        if(v4==""){
+        	alert("please enter the email");
+        	document.f.t4.focus();
+        	return false;
+        }
+        if(v5==""){
+        	alert("please enter the address");
+        	document.f.t5.focus();
+        	return false;
+        }
+        if(v6==""){
+        	alert("please enter the moblieno");
+        	document.f.t6.focus();
+        	return false;
+        }
+        if(v7==""){
+        	alert("please enter the male&female");
+        	document.f.t7.focus();
+        	return false;
+        }
+        if(v8==""){
+        	alert("please enter the hobbies");
+        	document.f.t8.focus();
+        	return false;
+        }
+        if(v9==""){
+        	alert("please enter the select city");
+        	document.f.t9.focus();
+        	return false;
+        }
+        if(v10==""){
+        	alert("please enter the select State");
+        	document.f.t10.focus();
+        	return false;
+        }
+        else{
+        	return true;
+        }
+     
+     }
+     </script> 
+   </head>
+   <body  >
+    <img alt="apple" src="file:///C:/Users/pamur/OneDrive/Pictures/Saved%20Pictures/apple.jpg">
+    <h1  > Registertion Page....</h1>
+     <form method="get" name="f" onsubmit="return check()">
+    
+       Name:<input type="text" name="t1" placeholder="name"><br></br>
+       Password:<input type="password"  name="t2" min="4" max="8" placeholder="Password"><br></br>
+       ConfirmPassword:<input type="password" name="t3"  min="4" max="8" placeholder="
+       ConfirmPassword"> <br></br>
+       Email:<input type="email" name="t4" placeholder="@email.com"><br></br>
+      <tr>
+        <td> MoblieNo</td>
+	      <td>
+	       <select>
+	         <option>98+ </option>
+	         <option>18+ </option>
+	         <option>91+ </option>
+	         <option>65+ </option>
+	         </select>
+	         <input type="number" name="t6" placeholder="9876****"/> <br></br>
+	     </td>
+	 </tr>
+	 Address:<input type="text" name="t5"   placeholder="address"/><br></br>
+         Genger:<input type="radio" name="t7" /> Male
+               <input type="radio" name="t7" /> Female <br></br>
+       Hobbies:<input type="checkbox" name="t8"/> Gaming 
+               <input type="checkbox" name="t8"/> Programming <br></br> 
+      City:<input type="text" name="t9" id="items"  list="listitems" />  
+		       <datalist id="listitems" >
+			       <option value="Hyderabad"> </option>
+			        <option value="Bengalure"> </option>
+			          <option value="Chennai"> </option>
+		       </datalist>   <br></br>
+		       
+        State:<input type="text" name="t10" id="items"  list="listitems2" />  
+		       <datalist id="listitems2" >
+			       <option value="Telangana"> </option>
+			        <option value="AndhraPradesh"> </option>
+			          <option value="Tamilnadu"> </option>
+		       </datalist>   <br></br>
+		              
+        <input type ="submit" value="Register"/>
+     </form>
+   </body>
+   </center>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

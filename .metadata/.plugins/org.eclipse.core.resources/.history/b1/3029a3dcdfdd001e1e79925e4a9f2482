@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First JSP</title>
+  </head>
+  <body bgcolor="#789">
+    <form method="post" action="">
+     <label>ID : </label>
+     <input type="text" name="userid" id="userid" required/>
+     <label>Password : </label>
+     <input type="password" name="password" id="password" required/>
+     <button type="submit">Login</button>
+    </form> 
+  </body>
+</html>

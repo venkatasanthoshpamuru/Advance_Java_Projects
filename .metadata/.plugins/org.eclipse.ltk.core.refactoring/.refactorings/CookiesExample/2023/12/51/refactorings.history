@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;CookiesExample&apos;&#x0D;&#x0A;- Original project: &apos;CookiesExample&apos;&#x0D;&#x0A;- Original element: &apos;CookiesExample/src/main/java/com.sthya.cookies&apos;" description="Delete element" element1="/src\/main\/java&lt;com.sthya.cookies" element2="/src\/main\/java&lt;com.sthya" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1702980956562" subPackages="false" version="1.0"/>
+</session>

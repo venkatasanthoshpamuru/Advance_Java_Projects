@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="JavaClasspathTab.LAST_PATH_SETTING" value="C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin"/>
+	<item key="JavaDependenciesTab.LAST_PATH_SETTING" value="C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib"/>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JDBC_FirstApplication/C:\/oraclexe\/app\/oracle\/product\/11.2.0\/server\/jdbc\/lib\/ojdbc6.jar&amp;lt;oracle.jdbc(OracleDriver.class[OracleDriver&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JDBCBasicsApp/src&amp;lt;com.sathya.jdbcconnection{jdbcExample1.java[jdbcExample1&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JDBC_FirstApplication/src&amp;lt;com.sathya.jdbcconnection{JDBCConnection.java[JDBCConnection&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JDBCBasicsApp/src&amp;lt;com.tcs{jdbcExample2.java[jdbcExample2&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=DataBaseConnectivity/src\/main\/java&amp;lt;com.sathya.databaseconnection{DBConnectionUntils.java[DBConnectionUntils&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="669"/>
+			<item key="DIALOG_Y_ORIGIN" value="186"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.8|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

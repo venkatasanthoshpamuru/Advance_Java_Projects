@@ -1,0 +1,13 @@
+127.0.0.1 - - [05/Mar/2024:15:22:43 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:22:45 +0530] "GET /ProductManagement/ HTTP/1.1" 200 2686
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:22:45 +0530] "GET /ProductManagement/formvalidation.js HTTP/1.1" 200 1131
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:22:45 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:23:05 +0530] "GET /ProductManagement/productList.jsp HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:23:55 +0530] "POST /ProductManagement/AddProductServlet HTTP/1.1" 200 33
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:24:02 +0530] "GET /ProductManagement/productList.jsp HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:24:06 +0530] "GET /ProductManagement/productList.jsp HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:24:07 +0530] "GET /ProductManagement/productList.jsp HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:24:08 +0530] "GET /ProductManagement/productList.jsp HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:24:09 +0530] "GET /ProductManagement/productList.jsp HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:24:34 +0530] "GET /ProductManagement/productList.jsp HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:15:24:46 +0530] "GET /ProductManagement/productList.jsp HTTP/1.1" 200 847

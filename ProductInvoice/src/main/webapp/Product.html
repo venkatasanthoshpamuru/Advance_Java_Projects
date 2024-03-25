@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ProductDetails</title>
+</head>
+<body bgcolor="#09f">
+  <h1>ProductDetails</h1>
+  <form method="get" action="./ProductInvoiceServlet">
+     <label>Product Id:</label>
+     <input type="number" name="proId" required/><br>
+     <label>Product Name:</label>
+     <input type="text" name="proName" required/><br>
+     <label>Product Price:</label>
+     <input type="number" name="proPrice" min="100" maxlength="100000"/><br>
+     <label>Product Quantity:</label>
+     <input type="number" name="proQuantity" required/><br>
+     <button type="submit">Print Invoice</button>
+     
+  </form>
+
+</body>
+</html>

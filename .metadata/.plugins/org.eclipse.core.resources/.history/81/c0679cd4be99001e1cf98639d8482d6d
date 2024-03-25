@@ -1,0 +1,47 @@
+package com.tcs;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class jdbcExample2 {
+   public static void main(String[] args) {
+	  Connection connection=null;
+	  Statement statement=null;
+	   try {
+		   //load the driver
+		   Class.forName("oracle:jdbc:driver:OracleDriver");
+		   connection=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","venkatt");
+		   System.out.println("connection created successfully..");
+		   
+		   statement=connection.createStatement();
+		   statement.executeUpdate("insert into employes values(111,'ratan',10000.45)");
+		   statement.executeUpdate("insert into employes values(222,'anu',20000.45)");
+		   statement.executeUpdate("insert into employes values(333,'sravya',30000.45)");
+
+	   }
+	   catch(ClassNotFoundException|SQLException e)
+	   {
+		   e.printStackTrace();
+	   }
+	   finally
+	   {
+		   try {
+		   if(connection!=null)
+		   {
+			   connection.close();
+		   }
+		   if(statement!=null)
+		   {
+			   statement.close();
+		   }
+		   }
+		   catch(SQLException e)
+		   {
+			   e.printStackTrace();
+		   }
+	   }
+	   
+    }
+}
